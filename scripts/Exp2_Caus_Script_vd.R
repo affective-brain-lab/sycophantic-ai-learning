@@ -24,7 +24,7 @@ conflict_prefer("mediate", "mediation")
 # ============================================================================
 # 1. Data prep 
 # ============================================================================
-df <- read_csv("/Users/a.duett/Downloads/Causal_Phil_03_positive_neutral_May+14,+2026_14.20 - DAT_all_pos_neg_comb_final - DAT_all_pos_neg_comb_f_ACs.csv")
+df <- read_csv("data/data_experiment_2_caus_vd - dat.csv")
 
 pre_cols        <- paste0("Q", 1:10, "_pre")            # initial exam raw responses
 post_cols       <- paste0("Q", 1:10, "_post")           # final exam raw responses
@@ -203,7 +203,7 @@ summary(model_S3_7b)
 ## S3.8 Final exam performance: AI conditions vs. no-feedback control
 
 ## Dataset with control group:
-df_ctrl_raw <- read_csv("/Users/a.duett/Downloads/data_experiment_2_causal_wControl_vd - dat.csv")
+df_ctrl_raw <- read_csv("data/data_experiment_2_caus_wControl_vd - dat.csv")
 
 df_ctrl_z <- df_ctrl_raw %>%
   mutate(

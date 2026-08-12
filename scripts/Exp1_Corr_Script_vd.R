@@ -21,8 +21,8 @@ conflict_prefer("mediate", "mediation")
 # ============================================================================
 # 1. Load data
 # ============================================================================
-df_main <- read_csv("data/data_experiment_1_correlational_Main_vf  - dat.csv")
-df_ctrl <- read_csv("data/data_experiment_1_correlational_wControl_vf - dat.csv")
+df_main <- read_csv("data/data_experiment_1_corr_Main_vf  - dat.csv")
+df_ctrl <- read_csv("data/data_experiment_1_corr_wControl_vf - dat.csv")
 
 # ============================================================================
 # 2. Rename variables
